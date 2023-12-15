@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Product - Shop Now!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            margin: 2em;
+            padding: 2em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .product-showcase {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .product-item {
+            flex: 1 0 calc(33.3333% - 20px);
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+        } .shoe {
+            height: 50px;
+            width: 40px;
+        }
+
+        .pricing {
+            text-align: center;
+        }
+
+        .contact-form {
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        input, button {
+            margin-top: 1em;
+            padding: 0.5em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ONLINE SELLING</h1>
+        <p>Shop Now!</p>
+    </header>
+
+    <section class="product-showcase">
+        <div class="product-item">
+            <img src="case.jpg" alt="case">
+            <h2>CASE</h2>
+            <h2>$29.99</h2>
+            <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-item">
+            <img src="bag.jpg" alt="bag">
+            <h2>BAG</h2>
+            <h2>$24.99 </h2>
+            <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-item">
+            <img src="watch.jpg" alt="watch">
+            <h2>WATCH</h2>
+            <h2> $19.99</h2>
+            <p>Description of Product 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Features</h2>
+        <p>Highlight the key features of your product here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+    </section>
+
+    <section class="pricing">
+        <h2>Pricing</h2>
+        <p>Choose the plan that suits you best.</p>
+        <p>Product 1: $19.99 | Product 2: $24.99 | Product 3: $29.99</p>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Product. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
